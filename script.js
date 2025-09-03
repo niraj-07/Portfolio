@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const data = new FormData(event.target);
         
        
-        const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_UNIQUE_ID';
+        const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mzzakbva';
 
         fetch(FORMSPREE_ENDPOINT, {
             method: 'POST',
